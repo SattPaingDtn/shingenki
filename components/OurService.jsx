@@ -55,11 +55,11 @@ const OurService = () => {
   return (
     <div className="max-w-[1280px] w-full h-full mx-auto p-3 mt-8 md:mt-[90px]">
       <div>
-        <div className="text-xl md:text-3xl font-medium flex-center w-full">
+        <div className="text-2xl md:text-3xl font-medium flex-center w-full">
           <div className="relative px-3 md:px-6">
             Our Services <span className="text-primary-green">For you</span>
-            <div className="absolute mt-1.5 md:mt-2 top-0 left-0 w-1 md:w-2 h-4 md:h-5 bg-black"></div>
-            <div className="absolute mt-1.5 md:mt-2 top-0 right-0 w-1 md:w-2 h-4 md:h-5 bg-primary-green"></div>
+            <div className="absolute mt-2 md:mt-2 top-0 left-0 w-1 md:w-2 h-4 md:h-5 bg-black"></div>
+            <div className="absolute mt-2 md:mt-2 top-0 right-0 w-1 md:w-2 h-4 md:h-5 bg-primary-green"></div>
           </div>
         </div>
         <Reveal>
@@ -71,7 +71,7 @@ const OurService = () => {
                   key={index}
                 >
                   <div
-                    className="our-service-card md:max-w-[360px] w-full relative flex-center"
+                    className="our-service-card max-w-[360px] w-full relative flex-center"
                     key={index}
                   >
                     <div className="text-center font-medium text-base md:text-lg">
@@ -95,7 +95,7 @@ const OurService = () => {
             <div className="w-full md:w-1/2 lg:w-1/3 flex-center mt-9">
               <Link
                 href="/service"
-                className="w-full md:max-w-[360px] md:w-[210px] h-11 md:h-[50px] bg-white border rounded-[5px] border-primary-green shadow-lg flex-center"
+                className="w-full max-w-[360px] md:w-[210px] h-11 md:h-[50px] bg-white border rounded-[5px] border-primary-green shadow-lg flex-center"
               >
                 {t("more")}{" "}
                 <span className="text-primary-green">

@@ -123,10 +123,10 @@ const Service = () => {
   return (
     <section className="pt-20">
       <TitleHeader title={t("service")} />
-      <div className="md:max-w-[1280px] mx-auto md:mt-4 flex-start flex-wrap">
+      <div className="max-w-[1280px] px-3 mx-auto md:mt-4 flex-start flex-wrap">
         {services?.map((service, index) => (
           <div
-            className="w-full md:w-1/2 lg:w-1/3 flex-center mt-14"
+            className={`w-full md:w-1/2 lg:w-1/3 mt-14 flex justify-center`}
             key={index}
           >
             <div className="service-card">

@@ -90,7 +90,7 @@ html,body{
 }
 
 .our-service-card{
-  @apply h-28 md:h-36;
+  @apply h-36 md:h-36;
   background-color: #fff;
   border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.20);
@@ -108,7 +108,7 @@ html,body{
 }
 
 .service-card{
-  width: 350px;
+  @apply max-w-[350px] w-full;
   height: 370px;
   background-color: #fff;
   border-radius: 5px;

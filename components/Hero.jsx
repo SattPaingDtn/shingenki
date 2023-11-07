@@ -9,7 +9,7 @@ const Hero = () => {
   const t = useTranslations("hero");
 
   return (
-    <div className="w-full h-[510px] md:h-[calc(100vh-84px)] md:min-h-[740px] hero-bg">
+    <div className="w-full h-[510px] md:h-[calc(100vh-84px)] md:min-h-[740px] hero-bg border-b border-b-gray-300 md:border-b-0">
       <div className="max-w-[1280px] h-full mx-auto p-3 flex items-center">
         <div className="w-full">
           <Reveal>
@@ -36,7 +36,7 @@ const Hero = () => {
               </div>
               <div className="absolute top-0 left-0 flex-center w-3 md:w-6 flex-wrap">
                 <div className="w-3 md:w-6 h-3 md:h-6 rounded-full bg-primary-green"></div>
-                <div className="w-[2px] h-28 md:h-32 bg-black"></div>
+                <div className="w-[2px] h-24 md:h-32 bg-black"></div>
               </div>
             </div>
             <div
@@ -48,7 +48,7 @@ const Hero = () => {
               <img
                 src="assets/icons/hero-cover.svg"
                 alt="hero"
-                className="w-full md:w-auto md:h-auto"
+                className="w-2/3 md:w-auto md:h-auto"
               />
             </div>
             <div
