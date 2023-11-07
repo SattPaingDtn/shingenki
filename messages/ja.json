@@ -1,0 +1,48 @@
+{
+    "lang":{
+        "lang":"ja"
+    },
+    "service":{
+        "more":"もっと",
+        "details":"見る",
+        "service":"サービス"
+    },
+    "nav":{
+        "home":"ホーム",
+        "service":"サービス",
+        "projects":"プロジェクト",
+        "company":"会社",
+        "contact-us":"お問い合わせ"
+    },
+    "hero":{
+        "genki-system":"Genki System",
+        "flexible":"flexible",
+        "creative-applications":"creative appliations",
+        "and":"&",
+        "subtitle-1":"Welcome innovation in business with",
+        "subtitle-2":"We create",
+        "message-1":"古いものを手放し、",
+        "message-2":"未来を最大限に活用する"
+    },
+    "company":{
+        "company":"会社",
+        "companyName":"名称",
+        "president":"代表者",
+        "businessLine":"事業内容",
+        "contactInfo":"電話番号",
+        "address":"所在地",
+        "founded":"設立",
+        "capital":"資本金",
+        "noOfEmployee":"従業員数"
+    },
+    "contactUs":{
+        "contact-us":"お問い合わせ",
+        "contactInformation":"お問い合わせ情報",
+        "sendMessage":"メッセージを送る",
+        "name":"名前",
+        "email":"メールアドレス",
+        "phone":"電話番号",
+        "message":"メッセージ",
+        "send":"送信"
+    }
+}

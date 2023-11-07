@@ -1,0 +1,48 @@
+{
+    "lang":{
+        "lang":"mm"
+    },
+    "service":{
+        "more":"ပိုမို",
+        "details":"သိရှိရန်",
+        "service":"၀န်ဆောင်မှု"
+    },
+    "nav":{
+        "home":"ပင်မစာမျက်နာ",
+        "service":"၀န်ဆောင်မှု",
+        "projects":"ပရောဂျက်",
+        "company":"ကုမ္ပဏီအကြောင်း",
+        "contact-us":"ဆက်သွယ်ရန်"
+    },
+    "hero":{
+        "genki-system":"Genki System",
+        "flexible":"flexible",
+        "creative-applications":"creative appliations",
+        "and":"&",
+        "subtitle-1":"Welcome innovation in business with",
+        "subtitle-2":"We create",
+        "message-1":"အဟောင်းကို စွန့်လွှတ်လိုက်ပါ။",
+        "message-2":"အနာဂတ်ကို အကောင်းဆုံးအသုံးချပါ။"
+    },
+    "company":{
+        "company":"ကုမ္ပဏီအကြောင်း",
+        "companyName":"ကုမ္ပဏီနာမည်",
+        "president":"ကိုယ်စားလှယ်",
+        "businessLine":"လုပ်ဆောင်သောလုပ်ငန်းများ",
+        "contactInfo":"ဆက်သွယ်ရန်ဖုန်းနံပါတ်",
+        "address":"လိပ်စာ",
+        "founded":"တည်ထောင်သောနှစ်",
+        "capital":"ရင်းနှီးမြှပ်နှံငွေ",
+        "noOfEmployee":"၀န်ထမ်းဉီးရေ"
+    },
+    "contactUs":{
+        "contact-us":"ဆက်သွယ်ရန်",
+        "contactInformation":"ဆက်သွယ်ရန် အချက်အလက်များ",
+        "sendMessage":"Send Message",
+        "name":"နာမည်",
+        "email":"မေးလ်",
+        "phone":"ဖုန်းနံပါတ်",
+        "message":"အကြောင်းအရာ",
+        "send":"‌ပေးပို့ရန်"
+    }
+}

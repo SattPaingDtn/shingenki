@@ -1,0 +1,48 @@
+{
+    "lang":{
+        "lang":"en"
+    },
+    "service":{
+        "more":"More",
+        "details":"Details",
+        "service":"Service"
+    },
+    "nav":{
+        "home":"Home",
+        "service":"Service",
+        "projects":"Projects",
+        "company":"Company",
+        "contact-us":"Contact Us"
+    },
+    "hero":{
+        "genki-system":"Genki System",
+        "flexible":"flexible",
+        "creative-applications":"creative appliations",
+        "and":"&",
+        "subtitle-1":"Welcome innovation in business with",
+        "subtitle-2":"We create",
+        "message-1":"Let go of the old and",
+        "message-2":"make the most of the future"
+    },
+    "company":{
+        "company":"Company",
+        "companyName":"Company Name",
+        "president":"President",
+        "businessLine":"Business Line",
+        "contactInfo":"Contact Info",
+        "address":"Address",
+        "founded":"Founded",
+        "capital":"Capital",
+        "noOfEmployee":"Number of employee"
+    },
+    "contactUs":{
+        "contact-us":"Contact Us",
+        "contactInformation":"Contact Information",
+        "sendMessage":"Send Message",
+        "name":"Name",
+        "email":"Email",
+        "phone":"Phone",
+        "message":"Message",
+        "send":"Send"
+    }
+}

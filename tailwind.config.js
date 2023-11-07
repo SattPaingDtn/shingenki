@@ -7,11 +7,24 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily:{
+        poppins: ['Poppins','sans-serif'],
+        sail: ['Sail','sans-serif']
       },
+      colors: {
+        'primary-green': '#0C4A4A',
+        'secondary-green': '#157373',
+        'secondary-white': '#F6F6F6'
+      },
+      keyframes: {
+        wiggle: {
+          '0%, 100%': { transform: 'rotate(-6deg)' },
+          '50%': { transform: 'rotate(6deg)' },
+        }
+      },
+      animation: {
+        wiggle: 'wiggle 2s ease-in-out infinite',
+      }
     },
   },
   plugins: [],
