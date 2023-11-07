@@ -30,11 +30,11 @@ const Company = () => {
       <div className="max-w-[1280px] mx-auto px-3 mt-9 md:mt-12">
         <Reveal>
           {companyInfos.map((companyInfo, index) => (
-            <div className="w-full flex" key={index}>
-              <div className="w-[40%] md:w-[20%] mr-1 md:px-2 border-b-2 py-2 md:py-4 border-b-primary-green text-primary-green font-semibold">
+            <div className="w-full flex flex-wrap" key={index}>
+              <div className="w-full md:w-[20%] mr-1 md:px-2 md:border-b-2 mt-2 md:py-4 border-b-primary-green text-primary-green font-semibold">
                 {companyInfo.title}
               </div>
-              <div className="w-[60%] md:w-[80%] md:px-2 border-b-2 py-2 md:py-4 border-b-black">
+              <div className="w-full md:w-[80%] md:px-2 border-b-2 py-2 md:py-4 border-b-black">
                 {companyInfo.info}
               </div>
             </div>

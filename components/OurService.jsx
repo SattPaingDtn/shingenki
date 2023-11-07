@@ -71,7 +71,7 @@ const OurService = () => {
                   key={index}
                 >
                   <div
-                    className="our-service-card max-w-[360px] w-full relative flex-center"
+                    className="our-service-card md:max-w-[360px] w-full relative flex-center"
                     key={index}
                   >
                     <div className="text-center font-medium text-base md:text-lg">
@@ -95,7 +95,7 @@ const OurService = () => {
             <div className="w-full md:w-1/2 lg:w-1/3 flex-center mt-9">
               <Link
                 href="/service"
-                className="w-full max-w-[360px] md:w-[210px] h-11 md:h-[50px] bg-white border rounded-[5px] border-primary-green shadow-lg flex-center"
+                className="w-full md:max-w-[360px] md:w-[210px] h-11 md:h-[50px] bg-white border rounded-[5px] border-primary-green shadow-lg flex-center"
               >
                 {t("more")}{" "}
                 <span className="text-primary-green">
