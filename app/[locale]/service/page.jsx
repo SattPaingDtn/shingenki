@@ -67,13 +67,13 @@ const Service = () => {
       "title-1": "ウェブ開発の",
       "title-2": "提供",
       description:
-        "お客様のご要望に応じてWebサイトを作成しております。 ウェブサイトに関してはレスポンシブを使用しております。 Genki の開発者は、お客様のために優れた Web サイトを作成します。",
+        "お客様のご要望に応じてWebサイトを作成しております。 ウェブサイトに関してはレスポンシブを使用しております。 Genki の開発者は、お客様のために優れた Web サイトを作成しております。",
     },
     {
       "title-1": "ユーザーインターフェースの",
       "title-2": "提供",
       description:
-        "弊社ではデザイナーがトレンドのデザインを採用しております。お客様のご要望に応じてデザインを作成いたします。",
+        "弊社のデザイナーはトレンドのデザインを使用しております。お客様のご要望に応じてデザインを作成しております。",
     },
   ];
 
@@ -82,19 +82,19 @@ const Service = () => {
       "title-1": "Japanနိုင်ငံ quality တွေကိုအသုံးပြုပြီး",
       "title-2": "System Developmentလုပ်ပေးခြင်း",
       description:
-        "Japan မှာ ၁၅ နှစ်ရှိပြီ ဖြစ်တဲ့ အတွေ့ အကြုံနဲ့ knowledge တွေကို နောက်ခံထားပြီး system development လုပ်နေပါတယ်။customer တွေကို အဆင်မပြေမှုတွေမပေးဘဲ develop လုပ်နေပါတယ် ။ ဘာသာပြန်ပေးတဲ့communicator တွေလဲရှိပါတယ်။",
+        "Japan မှာ ၁၅ နှစ်ရှိပြီ ဖြစ်တဲ့ အတွေ့ အကြုံနဲ့ knowledge တွေကို နောက်ခံထားပြီး system development လုပ်နေပါတယ်။ customer တွေ နဲ့ လိုက်လျောညီထွေစွာ ဆောင်ရွက်ပေးလျှက်ရှိပြီး communication အတွက် ဘာသာပြန် ခန့်အပ်ထားပါသည်။",
     },
     {
       "title-1": "System development ရဲ့ လုပ်ထုံးလုပ်နည်း",
       "title-2": "တွေကို ထောက်ပံ့ပေးခြင်း",
       description:
-        "System Requirement , Design တွေ construction နဲ့ operation စတဲ့ processတွေကို ဆောင်ရွက် ပေးနေပါတယ် ။ ဒါ့အပြင် requirements တွေကနေ project တွေအများကြီး လက်ခံပါတယ် ။",
+        "System Requirement , Design , construction နဲ့ operation စတဲ့ process တွေကို ဆောင်ရွက် ပေးနေပါတယ် ။ customer တွေရဲ့ လိုအပ်ချက် တွေပေါ် မူတည်ပြီးတော့လဲ project ‌‌လက်ခံပေးလျှက်ရှိပါသည်။",
     },
     {
       "title-1": "နောက်ဆုံးပေါ် နည်းပညာတွေကို",
       "title-2": "အသုံးပြုပေးခြင်း",
       description:
-        "ကျွန်တော်တို့ companyသည် နောက်ဆုံးပေါ် နည်းပညာတွနောက်လိုက်ပြီး develop လုပ်လေ့ ရှိပါတယ် ။ new technology ကိုအသုံးပြုပြီး system တွေကို provide လုပ်ပါတယ် ။",
+        "ကျွန်တော်တို့ companyသည် နောက်ဆုံးပေါ် နည်းပညာများကို အသုံးပြုပြီး web application များကို ရေးဆွဲပေးနေပါသည် ။ Latest technology ကိုအသုံးပြုပြီး web , mobile application တွေကို ထောက်ပံ့ပေးပါတယ်။",
     },
     {
       "title-1": "Web Development",
@@ -126,7 +126,7 @@ const Service = () => {
       <div className="max-w-[1280px] px-3 mx-auto md:mt-4 flex-start flex-wrap">
         {services?.map((service, index) => (
           <div
-            className={`w-full md:w-1/2 lg:w-1/3 mt-14 flex justify-center`}
+            className={`w-full md:w-1/2 lg:w-1/3 mt-14 flex justify-center md:px-2`}
             key={index}
           >
             <div className="service-card">
@@ -148,7 +148,7 @@ const Service = () => {
                   />
                 </div>
               </div>
-              <div className="my-4">{service.description}</div>
+              <div className="my-4 leading-7">{service.description}</div>
             </div>
           </div>
         ))}

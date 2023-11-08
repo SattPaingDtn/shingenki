@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sail:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Myanmar:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -90,7 +91,7 @@ html,body{
 }
 
 .our-service-card{
-  @apply h-36 md:h-36;
+  @apply h-36 md:h-36 px-1;
   background-color: #fff;
   border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.20);

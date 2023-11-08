@@ -2,14 +2,13 @@
 
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { motion } from "framer-motion";
 import { Reveal } from "./Reveal";
 
 const Hero = () => {
   const t = useTranslations("hero");
 
   return (
-    <div className="w-full h-[510px] md:h-[calc(100vh-84px)] md:min-h-[740px] hero-bg border-b border-b-gray-300 md:border-b-0">
+    <div className="w-full h-[510px] md:h-[800px] lg:h-[calc(100vh-84px)] lg:min-h-[740px] hero-bg border-b border-b-gray-300 md:border-b-0">
       <div className="max-w-[1280px] h-full mx-auto p-3 flex items-center">
         <div className="w-full">
           <Reveal>

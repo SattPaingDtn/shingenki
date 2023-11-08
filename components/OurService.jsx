@@ -67,7 +67,7 @@ const OurService = () => {
             {services &&
               services.map((service, index) => (
                 <div
-                  className="w-full md:w-1/2 lg:w-1/3 flex-center mt-9"
+                  className="w-full md:w-1/2 lg:w-1/3 flex-center mt-9 md:px-2"
                   key={index}
                 >
                   <div
@@ -75,7 +75,7 @@ const OurService = () => {
                     key={index}
                   >
                     <div className="text-center font-medium text-base md:text-lg">
-                      <div>{service["text-1"]}</div>
+                      <div className="leading-9">{service["text-1"]}</div>
                       <div className="text-primary-green">
                         {service["text-2"]}
                       </div>

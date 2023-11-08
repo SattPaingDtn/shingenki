@@ -17,7 +17,7 @@ const OurExpertise = () => {
         </div>
         <Reveal>
           <div className="mt-12 flex-start flex-wrap">
-            <div className="w-full md:w-1/2 lg:w-1/3 flex-center md:mt-9">
+            <div className="w-full md:w-1/2 lg:w-1/3 flex-center md:mt-9 md:px-2">
               <motion.div
                 className="expertise-card"
                 whileHover={{ scale: 1.1 }}
@@ -42,7 +42,7 @@ const OurExpertise = () => {
               </motion.div>
             </div>
             <motion.div
-              className="w-full md:w-1/2 lg:w-1/3 flex-center mt-9"
+              className="w-full md:w-1/2 lg:w-1/3 flex-center mt-9 md:px-2"
               whileHover={{ scale: 1.1 }}
             >
               <div className="expertise-card">
@@ -66,7 +66,7 @@ const OurExpertise = () => {
               </div>
             </motion.div>
             <motion.div
-              className="w-full md:w-1/2 lg:w-1/3 flex-center mt-9"
+              className="w-full md:w-1/2 lg:w-1/3 flex-center mt-9 md:px-2"
               whileHover={{ scale: 1.1 }}
             >
               <div className="expertise-card">
@@ -81,7 +81,7 @@ const OurExpertise = () => {
                 </div>
                 <div className="font-semibold text-center mb-4">Cloud</div>
                 <div className="text-center text-base">
-                  AWS , Linux , Serverless ,,
+                  AWS , Linux , Serverless ,
                   <br />
                   Micro Service , Monitoring ,<br />
                   Audit , CI / CD , etc ...

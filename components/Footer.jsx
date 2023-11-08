@@ -7,7 +7,7 @@ const Footer = () => {
   const t = useTranslations("nav");
   const t2 = useTranslations("hero");
   return (
-    <footer className="mt-20">
+    <footer className="mt-20 absolute w-full">
       <div className="bg-primary-green w-full px-5 text-white">
         <div className="max-w-[1280px] w-full flex justify-between mx-auto">
           <div className="w-2/3 md:w-1/2 my-10 text-sm md:text-base">

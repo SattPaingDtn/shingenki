@@ -6,10 +6,18 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    screens:{
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+    },
     extend: {
       fontFamily:{
         poppins: ['Poppins','sans-serif'],
-        sail: ['Sail','sans-serif']
+        sail: ['Sail','sans-serif'],
+        notosanmyanmar: ['Noto Sans Myanmar','sans-serif']
       },
       colors: {
         'primary-green': '#0C4A4A',

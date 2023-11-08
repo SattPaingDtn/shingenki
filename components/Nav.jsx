@@ -24,7 +24,7 @@ const Nav = () => {
   return (
     <nav className="relative z-10">
       <div className="fixed w-full shadow-lg">
-        <div className="relative h-8 bg-secondary-green flex-end gap-3 md:gap-6 text-secondary-white px-3 md:px-6 text-sm">
+        <div className="relative h-8 bg-secondary-green flex-end gap-3 md:gap-6 text-secondary-white px-3 lg:px-6 text-sm">
           <div>+9595087117</div>
           <div className="w-[1px] h-5 bg-secondary-white"></div>
           <div>
@@ -53,7 +53,7 @@ const Nav = () => {
             <div className="border-b-[56px] border-b-white border-r-[56px] border-r-transparent"></div>
           </div>
           <div
-            className="w-7 h-7 mx-3 cursor-pointer md:hidden"
+            className="w-7 h-7 mx-3 cursor-pointer lg:hidden"
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? (
@@ -64,17 +64,18 @@ const Nav = () => {
           </div>
           <div
             className={`
-                md:flex md:items-center
+                lg:flex lg:items-center
+                lg:mx-6
                 text-right
-                md:pb-0 pb-3 
-                absolute md:static 
-                md:z-auto z-[-1] 
+                lg:pb-0 pb-3 
+                absolute lg:static 
+                lg:z-auto z-[-1] 
                 left-0 w-full 
-                md:w-auto 
-                md:pl-0 pl-9 
-                bg-primary-green md:bg-transparent
+                lg:w-auto 
+                lg:pl-0 pl-9 
+                bg-primary-green lg:bg-transparent
                 text-white gap-11
-                px-6
+                lg-6
                 transition-all 
                 duration-500 
                 ease-in 
@@ -90,7 +91,7 @@ const Nav = () => {
               <motion.div
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                className="my-4 md:m-0"
+                className="my-4 mr-3 lg:m-0"
               >
                 {t("home")}
               </motion.div>
@@ -104,7 +105,7 @@ const Nav = () => {
               <motion.div
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                className="my-4 md:m-0"
+                className="my-4 mr-3 lg:m-0"
               >
                 {t("service")}
               </motion.div>
@@ -118,7 +119,7 @@ const Nav = () => {
               <motion.div
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                className="my-4 md:m-0"
+                className="my-4 mr-3 lg:m-0"
               >
                 {t("projects")}
               </motion.div>
@@ -132,7 +133,7 @@ const Nav = () => {
               <motion.div
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                className="my-4 md:m-0"
+                className="my-4 mr-3 lg:m-0"
               >
                 {t("company")}
               </motion.div>
@@ -146,7 +147,7 @@ const Nav = () => {
               <motion.div
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                className="my-4 md:m-0"
+                className="my-4 mr-3 lg:m-0"
               >
                 {t("contact-us")}
               </motion.div>
