@@ -22,8 +22,24 @@ const Hero = () => {
                 {t("subtitle-1")}{" "}
                 <span className="text-primary-green">{t("genki-system")}</span>
               </div>
-              <div className="text-2xl md:text-5xl my-1 md:my-2">
-                SOFTWARE <span className="text-primary-green">DEVELOPMENT</span>
+              <div class="text-2xl md:text-5xl my-0.5 [text-wrap:balance] bg-clip-text">
+                SOFTWARE{" "}
+                <span
+                  class="
+                      text-primary-green 
+                      inline-flex 
+                      flex-col 
+                      h-[calc(theme(fontSize.2xl)*theme(lineHeight.tight))] 
+                      md:h-[calc(theme(fontSize.5xl)*theme(lineHeight.tight))] 
+                      overflow-hidden
+                    "
+                >
+                  <ul class="block animate-text-slide text-left leading-tight [&_li]:block">
+                    <li>DEVELOPMENT</li>
+                    <li>DESIGN</li>
+                    <li aria-hidden="true">DEVELOPMENT</li>
+                  </ul>
+                </span>
               </div>
               <div className="font-medium text-base md:text-base">
                 {t("subtitle-2")}{" "}

@@ -28,10 +28,22 @@ module.exports = {
         wiggle: {
           '0%, 100%': { transform: 'rotate(-6deg)' },
           '50%': { transform: 'rotate(6deg)' },
-        }
+        },
+        'text-slide-2': {
+          '0%, 40%': {
+              transform: 'translateY(0%)',
+          },
+          '50%, 90%': {
+              transform: 'translateY(-33.33%)',
+          },
+          '100%': {
+              transform: 'translateY(-66.66%)',
+          },
+      },   
       },
       animation: {
         wiggle: 'wiggle 2s ease-in-out infinite',
+        'text-slide': 'text-slide-2 5s cubic-bezier(0.83, 0, 0.17, 1) infinite',
       }
     },
   },
