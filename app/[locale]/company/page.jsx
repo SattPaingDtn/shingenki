@@ -9,7 +9,7 @@ const Company = () => {
 
   const companyInfos = [
     { title: t("companyName"), info: "Shin Genki Co., Ltd" },
-    { title: t("president"), info: "Aida Shinsukei" },
+    { title: t("president"), info: "Aida Shinsuke" },
     {
       title: t("businessLine"),
       info: "IT offshore development・outsource \n development・quasi-mandate contract (SES,labor)",
@@ -17,10 +17,10 @@ const Company = () => {
     { title: t("contactInfo"), info: "+959 508 7117" },
     {
       title: t("address"),
-      info: "No.204(Ground floor), 40th Street (Middle Block), 9 Ward, Kyauktada Township Yangon, Myanmar., Yangon, Myanmar",
+      info: "No.204(Ground floor), 40th Street (Middle Block), 9 Ward, Kyauktada Township Yangon, Myanmar",
     },
     { title: t("founded"), info: "June , 21 , 2018" },
-    { title: t("capital"), info: "100,000 USD" },
+    { title: t("capital"), info: "100,00 USD" },
     { title: t("noOfEmployee"), info: "4 (current)" },
   ];
 
