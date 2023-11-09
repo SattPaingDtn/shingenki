@@ -27,7 +27,7 @@ const Company = () => {
   return (
     <section className="pt-20">
       <TitleHeader title={t("company")} />
-      <div className="max-w-[1280px] mx-auto px-3 mt-9 md:mt-12">
+      <div className="max-w-[1152px] mx-auto px-3 mt-9 md:mt-12">
         <Reveal>
           {companyInfos.map((companyInfo, index) => (
             <div className="w-full flex flex-wrap md:flex-nowrap" key={index}>

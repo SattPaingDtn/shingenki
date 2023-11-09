@@ -9,7 +9,7 @@ const Hero = () => {
 
   return (
     <div className="w-full h-[510px] md:h-[800px] lg:h-[calc(100vh-84px)] lg:min-h-[740px] hero-bg border-b border-b-gray-300 md:border-b-0">
-      <div className="max-w-[1280px] h-full mx-auto p-3 flex items-center">
+      <div className="max-w-[1152px] h-full mx-auto p-3 flex items-center">
         <div className="w-full">
           <Reveal>
             <div
@@ -22,10 +22,10 @@ const Hero = () => {
                 {t("subtitle-1")}{" "}
                 <span className="text-primary-green">{t("genki-system")}</span>
               </div>
-              <div class="text-2xl md:text-5xl my-0.5 [text-wrap:balance] bg-clip-text">
+              <div className="text-2xl md:text-5xl my-0.5 [text-wrap:balance] bg-clip-text">
                 SOFTWARE{" "}
                 <span
-                  class="
+                  className="
                       text-primary-green 
                       inline-flex 
                       flex-col 
@@ -34,7 +34,7 @@ const Hero = () => {
                       overflow-hidden
                     "
                 >
-                  <ul class="block animate-text-slide text-left leading-tight [&_li]:block">
+                  <ul className="block animate-text-slide text-left leading-tight [&_li]:block">
                     <li>DEVELOPMENT</li>
                     <li>DESIGN</li>
                     <li aria-hidden="true">DEVELOPMENT</li>

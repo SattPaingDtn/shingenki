@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const OurExpertise = () => {
   return (
-    <div className="max-w-[1280px] h-full mx-auto p-3 mt-10 md:mt-[120px]">
+    <div className="max-w-[1152px] h-full mx-auto p-3 mt-10 md:mt-[120px]">
       <div>
         <div className="text-xl md:text-3xl font-medium flex-center w-full">
           <div className="relative px-3 md:px-6">

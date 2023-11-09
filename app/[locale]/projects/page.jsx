@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <section className="pt-20">
       <TitleHeader title={t("projects")} />
-      <div className="max-w-[1280px] px-3 mx-auto mt-12">
+      <div className="max-w-[1152px] px-3 mx-auto mt-12">
         <div className="w-full bg-white rounded-[10px] shadow-md p-4 md:p-8 mt-12 relative">
           <div className="font-medium md:text-lg border-l-4 rounded-sm pl-2 mb-4 border-l-primary-green">
             Crowdfunding

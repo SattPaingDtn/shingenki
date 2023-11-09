@@ -53,7 +53,7 @@ const OurService = () => {
   }, [currentLang]);
 
   return (
-    <div className="max-w-[1280px] w-full h-full mx-auto p-3 mt-8 md:mt-[90px]">
+    <div className="max-w-[1152px] w-full h-full mx-auto p-3 mt-8 md:mt-[90px]">
       <div>
         <div className="text-2xl md:text-3xl font-medium flex-center w-full">
           <div className="relative px-3 md:px-6">

@@ -35,11 +35,11 @@ const ContactUs = () => {
   return (
     <section className="pt-20">
       <TitleHeader title={t("contact-us")} />
-      <div className="max-w-[1280px] mx-auto px-3 mt-16 relative">
+      <div className="max-w-[1152px] mx-auto px-3 mt-16 relative">
         <Reveal>
           <div className="flex-end">
             <div className="w-full lg:w-[85%] h-[556px] bg-white border rounded-[5px] shadow-lg">
-              <div className="lg:pl-[23%] px-4 lg:pr-9">
+              <div className="lg:pl-[27%] px-4 lg:pr-9">
                 <div className="font-semibold text-xl mt-12">
                   {t("sendMessage")}
                 </div>
