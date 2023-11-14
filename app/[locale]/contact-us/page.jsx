@@ -122,7 +122,9 @@ const ContactUs = () => {
                 alt="phone"
                 className="mr-3 h-auto w-auto"
               />
-              <Link href="mailto:shingenki@info.com">shingenki@info.com</Link>
+              <Link href="mailto:shingenki.info@gmail.com">
+                shingenki.info@gmail.com
+              </Link>
             </div>
             <div className="mt-6 flex">
               <Image
